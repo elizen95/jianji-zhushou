@@ -99,6 +99,7 @@ def validate_motion_occurrences(board, minimum_seconds, *, require_records=False
     signature_id = signature_id.strip().casefold() if signature_id is not None else None
     issues = []
     occurrences = []
+    chapter_seconds = board.get('production_policy', {}).get('chapter_card', {}).get('duration_seconds', 3)
     for scene in board.get('scenes', []):
         scene_id = scene.get('id', 'scene')
         if require_records and 'motion_occurrences' not in scene:
@@ -121,7 +122,7 @@ def validate_motion_occurrences(board, minimum_seconds, *, require_records=False
             name = name.strip().casefold()
             exempt = (name == signature_id and scene.get('chapter_card') is True
                       and scene.get('start_frame', -1) <= start < end <= scene.get('end_frame_exclusive', -1)
-                      and scene.get('end_frame_exclusive', -1) - scene.get('start_frame', -1) == 3 * fps)
+                      and scene.get('end_frame_exclusive', -1) - scene.get('start_frame', -1) == chapter_seconds * fps)
             occurrences.append((start, end, name, scene_id, exempt))
     latest = {}
     latest_regular = {}

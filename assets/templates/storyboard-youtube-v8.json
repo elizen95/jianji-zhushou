@@ -155,13 +155,15 @@
       "first_sequence_seconds": 15
     },
     "chapter_card": {
-      "duration_seconds": 3,
+      "duration_seconds": 2,
       "bilingual": true,
       "active_from_first_frame": true,
-      "insert_seconds": 3,
+      "insert_seconds": 0,
       "sound_effect": "keyboard_typing",
-      "shift_downstream_subtitles": true,
-      "signature_motion_id": null
+      "shift_downstream_subtitles": false,
+      "signature_motion_id": null,
+      "timing": "existing_audio_subtitle_gap",
+      "layout": "shared_across_chapters"
     },
     "three_dimensional": {
       "engines": [
