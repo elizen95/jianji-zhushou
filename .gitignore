@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+node_modules/
+out/
+.remotion/
+
+/modules/
+/.jianji/
+/assets/avatar-reference/

@@ -1,0 +1,10 @@
+{
+  "name": "jianji-zhushou",
+  "skill_id": "jianji-zhushou",
+  "version": "1.0",
+  "lightweight": true,
+  "source_count": 40,
+  "active_source_count": 14,
+  "source_snapshots_bundled": false,
+  "recovery": "See references/restore-libraries.md."
+}

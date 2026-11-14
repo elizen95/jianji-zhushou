@@ -1,0 +1,39 @@
+{
+  "repository": "https://github.com/notofonts/noto-cjk",
+  "commit": "f8d157532fbfaeda587e826d4cd5b21a49186f7c",
+  "font_path": "Sans/Variable/TTF/Subset/NotoSansSC-VF.ttf",
+  "license_path": "Sans/LICENSE",
+  "license": "SIL Open Font License 1.1",
+  "font_names": {
+    "1": "Noto Sans SC",
+    "2": "Regular",
+    "5": "Version 2.004;hotconv 1.0.118;makeotfexe 2.5.65603",
+    "6": "NotoSansSC-Thin"
+  },
+  "axes": [
+    {
+      "tag": "wght",
+      "min": 100.0,
+      "default": 100.0,
+      "max": 900.0
+    }
+  ],
+  "files": [
+    {
+      "file": "NotoSansSC-VF.ttf",
+      "bytes": 17773132,
+      "sha256": "d68bafcb48a2707749396aa12bbbd833cb70401f3a9a689fd2902c7e0d295964"
+    },
+    {
+      "file": "OFL.txt",
+      "bytes": 4301,
+      "sha256": "6a73f9541c2de74158c0e7cf6b0a58ef774f5a780bf191f2d7ec9cc53efe2bf2"
+    }
+  ],
+  "installed_preferred_font": {
+    "family": "PingFang SC",
+    "regular": "C:/Windows/Fonts/PingFang Regular.ttf",
+    "bold": "C:/Windows/Fonts/PingFang Bold.ttf",
+    "bundled": false
+  }
+}

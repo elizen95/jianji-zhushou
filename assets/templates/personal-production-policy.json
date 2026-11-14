@@ -1,0 +1,169 @@
+{
+  "profile_id": "personal-youtube-r7",
+  "version": "1.0",
+  "basis": "用户确认的文案、审美、地图、节奏、三维与集中审阅约定",
+  "presenter": {
+    "mode": "avatar_overlay",
+    "required": false,
+    "opening_fullscreen_seconds": 0,
+    "later_mode": "bottom_right_overlay",
+    "allow_later_fullscreen": false,
+    "allow_reposition": false,
+    "shape": "keyed_silhouette",
+    "reference_canvas": [
+      1920,
+      1080
+    ],
+    "pip_pixels": {
+      "x": 1300,
+      "y": 530,
+      "width": 640,
+      "height": 360
+    },
+    "source_clock": "continuous",
+    "schedule": [],
+    "source_type": "q_avatar",
+    "background": "chroma_key",
+    "generation_owner": "user",
+    "minimum_new_segment_seconds": 10,
+    "allow_opening_overlay": true
+  },
+  "ai_video": {
+    "duration_confirmation_required": false,
+    "preferred_source_seconds": 10,
+    "use_full_source_when_relevant": true,
+    "maximize_relevant_coverage": true,
+    "full_original_frame": true,
+    "fit": "contain",
+    "crop": false,
+    "zoom": false,
+    "playback_rate": 1,
+    "loop": false,
+    "freeze_fill": false,
+    "source_edge_cleanup": false,
+    "source_cleanup_owner": "user",
+    "shortfall_requires_reason_and_motion": true,
+    "screen_provenance_label": false
+  },
+  "images": {
+    "foreground_fit": "contain",
+    "large_original": true,
+    "frame_enabled": false,
+    "detail_inset": false,
+    "local_magnifier": false,
+    "caption_bilingual": true,
+    "caption_placement": [
+      "left",
+      "right",
+      "below"
+    ],
+    "background": "optional_softened_same_image",
+    "repeat_policy": "avoid; explain necessary reuse",
+    "source_metadata": "ledger_only",
+    "semantic_motion": true
+  },
+  "text": {
+    "bilingual": true,
+    "font_preference": [
+      "PingFang SC Regular",
+      "PingFang SC",
+      "Noto Sans SC"
+    ],
+    "forbidden_overlay_phrases": [
+      "AI历史重建",
+      "AI historical reconstruction",
+      "AI重建",
+      "AI reconstruction",
+      "出版物示意图"
+    ]
+  },
+  "maps": {
+    "bilingual_place_names": true,
+    "bilingual_water_labels": true,
+    "real_natural_geography": true,
+    "accent_color": true,
+    "route_evidence_required": true,
+    "connect_place_list_as_march": false,
+    "bottom_production_notes": false,
+    "drawing_component_required": true,
+    "bilingual_terrain_labels": true,
+    "bilingual_feature_types": [
+      "mountain_range",
+      "river",
+      "sea",
+      "ocean",
+      "lake"
+    ]
+  },
+  "subtitles": {
+    "mode": "external",
+    "burn_in": false,
+    "reserve_space": true,
+    "draw_placeholder_box": false,
+    "safe_area": {
+      "x": 0,
+      "y": 0.8611111111111112,
+      "width": 1,
+      "height": 0.1388888888888889
+    }
+  },
+  "motion": {
+    "continuous_semantic_progression": true,
+    "ppt_like_hold_fill": false,
+    "composition_repeat_window_seconds": 300,
+    "compare_actual_geometry": true,
+    "fixed_video_share_quota": null,
+    "faceless_narrative_coverage": true,
+    "content_switch_min_seconds": 5,
+    "content_switch_max_seconds": 10,
+    "content_repeat_window_seconds": 120,
+    "repeat_window_from_previous_end": true,
+    "animation_repeat_window_seconds": 300
+  },
+  "review_documents": {
+    "full_film_pdf": true,
+    "per_page_editable_word": true,
+    "include_all_generated_zh_en_text": true,
+    "visual_reinspection": false,
+    "scope": "complete_execution_package",
+    "same_source_data": true,
+    "default_document_format": "markdown",
+    "cadence": "single_batch",
+    "routine_effect_image_checks": false,
+    "allow_3d_layout_preview": true
+  },
+  "commercial_use": false,
+  "approval": {
+    "repeat_style_selection": false,
+    "per_shot_approval": false,
+    "publish_without_explicit_request": false
+  },
+  "overrides": {},
+  "output": {
+    "width": 2560,
+    "height": 1440,
+    "fps": 60
+  },
+  "opening": {
+    "hook_seconds": 3,
+    "first_sequence_seconds": 15
+  },
+  "chapter_card": {
+    "duration_seconds": 3,
+    "bilingual": true,
+    "active_from_first_frame": true,
+    "insert_seconds": 3,
+    "sound_effect": "keyboard_typing",
+    "shift_downstream_subtitles": true,
+    "signature_motion_id": null
+  },
+  "three_dimensional": {
+    "engines": [
+      "three.js",
+      "blender"
+    ],
+    "consider_across_production": true,
+    "original_prototype_when_visual_reference_missing": true,
+    "default_handoff": "runnable_source_then_production_render"
+  }
+}

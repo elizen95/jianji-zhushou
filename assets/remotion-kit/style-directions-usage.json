@@ -1,0 +1,21 @@
+{
+  "version": "4.3",
+  "scope": "Reusable mechanisms; example SVG is an original illustration, not historical evidence",
+  "components": {
+    "ArchiveImage": "large complete image + bilingual name, no frame or magnifier",
+    "FullBleedVideo": "complete original source, contain, no crop or loop",
+    "PresenterLayer": "legacy project component; current projects composite a keyed Q avatar over the master",
+    "morphContour": "frame-driven shape interpolation"
+  },
+  "reference_note": "Examples do not set a mandatory theme, clip duration or approval flow.",
+  "technical_verification": {
+    "typecheck": "passed",
+    "rendered_examples": [
+      "ArchiveDirection frame60",
+      "MorphDirection frame100",
+      "DepthDirection frame100"
+    ],
+    "visual_review": "not_performed",
+    "scope": "Revised 4.3 component smoke rendering, not film or document QA"
+  }
+}

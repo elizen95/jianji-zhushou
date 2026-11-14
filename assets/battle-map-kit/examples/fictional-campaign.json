@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "title": "地图解释：集结、行进与会合",
+  "subtitle": "先交代地理关系，再让路线随旁白展开；移动标记与路线共用同一投影。",
+  "disclaimer": "虚构行动演示，非历史战役；路线、时间与控制区均为示意",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "durationInFrames": 360,
+  "bounds": [-9, 35, 29, 60],
+  "period": "虚构第01—05日",
+  "showRouteGuide": false,
+  "attribution": "海岸线：Natural Earth / world-atlas · 公共领域",
+  "sources": [
+    {"id": "demo", "title": "本例人工构造的教学数据", "type": "synthetic", "note": "不可用作任何历史事实依据"},
+    {"id": "coast", "title": "Natural Earth 1:110m land via world-atlas 2.0.2", "url": "https://github.com/topojson/world-atlas", "license": "Public domain", "type": "modern-physical-basemap"}
+  ],
+  "camera": [
+    {"at": 0, "center": [8,49], "zoom": 1},
+    {"at": 3, "center": [8,49], "zoom": 1},
+    {"at": 7, "center": [9,50], "zoom": 1.25},
+    {"at": 12, "center": [9,50], "zoom": 1.25}
+  ],
+  "routes": [
+    {"id":"west-column","label":"西部纵队","date":"虚构第01—04日","sourceId":"demo","evidence":"schematic","coordinates":[[-2,46],[1,47],[4,48],[7,50],[10,51]],"start":1,"end":9,"color":"#a84638","width":5},
+    {"id":"east-column","label":"东部纵队","date":"虚构第02—05日","sourceId":"demo","evidence":"schematic","coordinates":[[18,53],[16,51],[13,50],[10,51]],"start":4,"end":10.5,"color":"#3a6c83","width":5}
+  ],
+  "places": [
+    {"name":"西部集结点","coordinates":[-2,46],"dx":14,"dy":31},
+    {"name":"东部集结点","coordinates":[18,53],"dx":14,"dy":-15},
+    {"name":"中央通道","coordinates":[4,48],"dx":-100,"dy":-24},
+    {"name":"会合点","coordinates":[10,51],"dx":16,"dy":-18,"start":5}
+  ],
+  "layers": [
+    {"id":"assembly-area","kind":"schematic-area","label":"斜纹：虚构控制范围示意","date":"虚构第03—05日","sourceId":"demo","start":6,"end":12,"uncertain":true,"fill":"#a84638","opacity":0.12,"geojson":{"type":"Feature","properties":{"meaning":"fictional teaching area"},"geometry":{"type":"Polygon","coordinates":[[[7,49],[7,52.5],[13,52.5],[13,49],[7,49]]]}}}
+  ],
+  "cues": [
+    {"at":0,"date":"第01日","text":"建立方位：两支纵队从不同方向出发。"},
+    {"at":3,"date":"第02日","text":"先看西部路线，再引入东部行动。"},
+    {"at":6,"date":"第03日","text":"斜纹表示范围示意；不把不确定性画成精确边界。"},
+    {"at":9,"date":"第04日","text":"路线、单位标记、地名和镜头始终对齐。"},
+    {"at":10.5,"date":"第05日","text":"落点停留，让观众理解两路会合的空间关系。"}
+  ]
+}

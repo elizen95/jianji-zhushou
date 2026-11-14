@@ -1,0 +1,5 @@
+interface:
+  display_name: "jianji-zhushou"
+  short_description: "统一主题风格，结合丰富镜头、地图与动效，制作完整一致的YouTube解说视频"
+  brand_color: "#E8734A"
+  default_prompt: "使用 $jianji-zhushou，以我的文案与原声组织镜头，调用资料库及 Three.js、Blender，按约定交付执行包和集中审阅文件。"

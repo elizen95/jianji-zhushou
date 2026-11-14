@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/GODGOD126/opus-5-5-86-styles-in-motion",
+  "default_branch": "main",
+  "commit": "788c140043ddac6b08cb1947232d075164dbedda",
+  "source_path": "modules/upstream/opus-5-5-86-styles-in-motion",
+  "file_count": 964,
+  "total_bytes": 429964047,
+  "retrieval": "Recovered complete ZIP local entries with CRC verification after download interruption; completed 11 files from exact-commit raw URLs; all 964 files checked against exact Git commit tree blob SHA-1 values.",
+  "archive_status": "Original upstream.zip is incomplete and is NOT a deliverable.",
+  "git_tree_verification": "all_files_match",
+  "skipped": [],
+  "missing": [],
+  "extras": [],
+  "git_lfs_pointers": [],
+  "reference_license": "No root LICENSE; THIRD_PARTY_NOTICES attributes Futurepedia AI Style Atlas. Retain source metadata; no license claim inferred."
+}

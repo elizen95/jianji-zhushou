@@ -1,0 +1,9 @@
+{
+  "source_manifest": "modules/vendor/map-data-stack/manifest.json (relative to packaged skill root)",
+  "packages": {
+    "d3-geo": "3.1.1",
+    "d3-array": "3.2.4",
+    "internmap": "2.0.3"
+  },
+  "changes": "Only import specifiers rewritten to relative local src paths; original archives remain in vendor/archives. No algorithm changes."
+}
